@@ -1,8 +1,12 @@
 from random import randint
 
-rand_num = randint(0, 1001)
+LOWER_LIMIT = 0
+UPPER_LIMIT = 1001
+AMOUNT_OF_GUESSES = 10
 
-for _ in range(10):
+rand_num = randint(LOWER_LIMIT, UPPER_LIMIT)
+
+for _ in range(AMOUNT_OF_GUESSES):
     guess_num = int(input("Введите число: "))
     if guess_num == rand_num:
         print("Вы угадали")
