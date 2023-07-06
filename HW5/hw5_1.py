@@ -6,4 +6,3 @@ def get_file_info(path: str):
     return ext, name, res_path
 
 
-print(get_file_info("/Users/alekseikopylkov/Courses/PythonHW/HW4/hw4_1.py"))
